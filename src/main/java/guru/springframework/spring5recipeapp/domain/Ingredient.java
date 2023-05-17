@@ -18,6 +18,9 @@ public class Ingredient {
     @ManyToOne
     private Recipe recipe;
 
+    public Ingredient(String s, BigDecimal bigDecimal, UnitOfMeasure eachUom, Recipe tacosRecipe) {
+    }
+
     public Long getId() {
         return id;
     }
